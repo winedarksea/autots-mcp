@@ -30,3 +30,15 @@ autots-mcp
 This is a convenience wrapper package that has no code of its own. It simply declares `autots[mcp]` as a dependency to make installation easier in environments where optional dependency paths are not easy or not allowed.
 
 For full AutoTS documentation, visit: https://github.com/winedarksea/AutoTS
+
+## MCP Server
+```json
+{
+  "mcpServers": {
+    "autots": {
+      "command": "autots-mcp"
+    }
+  }
+}
+```
+mcp-name: io.github.winedarksea/AutoTS
