@@ -21,6 +21,10 @@ dependencies = [
     "autots[mcp]>=1.0.1",
 ]
 
+[project.scripts]
+autots-mcp-server = "autots.mcp.server:serve"
+autots-mcp = "autots.mcp.server:serve"
+
 [project.urls]
 "Homepage" = "https://github.com/winedarksea/AutoTS"
 "Bug Tracker" = "https://github.com/winedarksea/AutoTS/issues"
